@@ -1,0 +1,82 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.kubeliai {
+    width: 400px;
+    height: 470px;
+}
+.kubeliai #static {
+    background-color: gray;
+    position: static;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+.kubeliai #absolute {
+    background-color: deeppink;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    text-align: right;
+    font-size: 15px;
+    top: 50px;
+    left: 50px;
+    border: 1px solid black;
+}
+
+.kubeliai #fixed {
+    background-color: royalblue;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    text-align: right;
+    font-size: 15px;
+    top: 50px;
+    left: 200px;
+    border: 1px solid black;
+}
+
+.kubeliai #relative {
+    background-color: yellow;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    text-align: right;
+    font-size: 15px;
+    top: 50px;
+    left: 50px;
+    border: 1px solid black;
+}
+
+.kubeliai #relative2 {
+    background-color: seagreen;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    text-align: left;
+    font-size: 15px;
+    top: 70px;
+    left: 200px;
+    border: 1px solid black;
+}
+
+.kubeliai #absolute2 {
+    background-color: blueviolet;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    text-align: right;
+    font-size: 15px;
+    top: 30px;
+    left: 30px;
+    border: 1px solid black;
+}
+
+
+.
+
+
