@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
     <title>Puslapis20211125</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
@@ -11,7 +12,7 @@
 </head>
 <body>
 <main>
-<header class="grid" id="headeris">
+<header class="main" id="headeris">
     <a href="https://google.com">Eiti i Google</a>
     <a href="https://youtube.com">Eiti i Youtube</a>
     <a href="https://delfi.lt">Eiti i Delfi</a>
@@ -19,7 +20,7 @@
 </header>
 
 <aside
-        class="grid" id="aside">Cia gali buti tavo reklama
+        class="main" id="aside">Cia gali buti tavo reklama
     <br>
     <img src="https://picsum.photos/200/300?grayscale" alt="random paveikslelis"/>
     <br>
@@ -27,13 +28,14 @@
 
 </aside>
 
-<article
-    class="grid" id="article">SVEIKAS PASAULI, CIA YRA MANO PUSLAPIS
-</article>
+<div
+    class="main" id="toptext">SVEIKAS PASAULI, CIA YRA MANO PUSLAPIS
+</div>
+
 
 <section>
-    <p>Cia yra forma, kuria galite uzpildyti</p>
-    <form class="grid" id="forma" action="#" method="GET" target="_blank">
+    <p><b>Cia yra forma, kuria galite uzpildyti</b></p>
+    <form class="main" id="forma" action="#" method="GET" target="_blank">
         <input name="firstname" type="text" placeholder="Jusu vardas"/>
         <br>
         <input name="firstname" type="text" placeholder="Jusu el. pasto adresas"/>
@@ -42,14 +44,36 @@
         <br>
         <textarea name="message" rows="10" cols="30" placeholder="zinute">Tavo zinute
     </textarea>
-        <br>
         <button type="button" onclick="alert('Oooo, labas')">Siusti zinute</button>
+        <br>
+        <img src="https://picsum.photos/200/300/?blur=2" alt="random paveikslelis"/>
     </form>
-    <img src="https://picsum.photos/200/300/?blur=2" alt="random paveikslelis"/>
+    <br>
+
 
 </section>
+
+
+        <form action="#" id="antra_forma" method="POST" target="_blank">
+            <input name="firstname" type="text" placeholder="Vardas" />
+            <br>
+            <input name="firstname" type="text" placeholder="Pavarde" />
+            <br>
+            <button type="button" onclick="alert('Oooo, labas')">Siusti zinute</button>
+        </form>
+    <article class="main" id="tekstas">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </article>
+
 <footer
-        class="grid" id="footer">Visos teises yra saugomos, taciau galima kopijuoti
+        class="main" id="footer">Visos teises yra saugomos, taciau galima kopijuoti
 </footer>
 </main>
 
